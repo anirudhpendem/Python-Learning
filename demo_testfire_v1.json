@@ -1,0 +1,270 @@
+{
+	"id": "49d22bb5-78bd-4639-8183-1e7fc904b3da",
+	"name": "Testfire API Doc",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"0a684e6a-e495-4bac-9403-02b2d88d0c1e",
+		"08003eea-05ca-4abc-9996-120de1652e1f",
+		"b5bb24c8-03df-41ac-a2c4-676d83f01071",
+		"c923ec4a-c5cb-49fa-a3a2-c9d4dd3722f5",
+		"726700d4-4622-4837-885f-52663a8279d5",
+		"43c64259-11df-4437-8a3b-edb0aa5d9180",
+		"5a857e10-472d-4709-a138-8338d3e5c99f",
+		"22904280-9a09-4e99-be64-d3734f9bf051"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "08003eea-05ca-4abc-9996-120de1652e1f",
+			"name": "Login Status Check",
+			"url": "https://demo.testfire.net/api/login",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "accept: application/json\nAuthorization: YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "0a684e6a-e495-4bac-9403-02b2d88d0c1e",
+			"name": "login",
+			"url": "https://demo.testfire.net/api/login",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"username\": \"jsmith\",\n    \"password\": \"demo1234\"\n}",
+			"headers": "accept: application/json\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "22904280-9a09-4e99-be64-d3734f9bf051",
+			"name": "Logout",
+			"url": "https://demo.testfire.net/api/logout",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "accept: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "43c64259-11df-4437-8a3b-edb0aa5d9180",
+			"name": "Add User",
+			"url": "https://demo.testfire.net/api/admin/addUser",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"firstname\": \"Bilbo\",\n    \"lastname\": \"Baggins\",\n    \"username\": \"bilbob\",\n    \"password1\": \"S3l3ctS0methingStr0ng5AsP@ssword\",\n    \"password2\": \"S3l3ctS0methingStr0ng5AsP@ssword\"\n}",
+			"headers": "accept: application/json\nAuthorization: YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5a857e10-472d-4709-a138-8338d3e5c99f",
+			"name": "admin changePassword",
+			"url": "https://demo.testfire.net/api/admin/changePassword",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"username\": \"jdoe\",\n    \"password1\": \"Th1s!sz3nu3Passv0rd\",\n    \"password2\": \"Th1s!sz3nu3Passv0rd\"\n}",
+			"headers": "accept: application/json\nAuthorization: YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "726700d4-4622-4837-885f-52663a8279d5",
+			"name": "Feedback",
+			"url": "https://demo.testfire.net/api/feedback/submit",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"name\": \"J Smith\",\n    \"email\": \"jsmtih@altoromutual.com\",\n    \"subject\": \"Amazing web design\",\n    \"message\": \"I like the new look of your applicaiton\"\n}",
+			"headers": "accept: application/json\nContent-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b5bb24c8-03df-41ac-a2c4-676d83f01071",
+			"name": "Account Info",
+			"url": "https://demo.testfire.net/api/account",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "accept: application/json\nAuthorization: YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c923ec4a-c5cb-49fa-a3a2-c9d4dd3722f5",
+			"name": "Transfer Amount",
+			"url": "https://demo.testfire.net/api/transfer",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "accept",
+					"value": "application/json",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"toAccount\": \"800002\",\n    \"fromAccount\": \"800003\",\n    \"transferAmount\": \"200\"\n}",
+			"headers": "accept: application/json\nAuthorization: YW5OdGFYUm86WkdWdGJ6RXlNelE9OmNaZhZ9P10=\nContent-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}

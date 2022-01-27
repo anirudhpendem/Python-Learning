@@ -1,0 +1,4 @@
+l = [dict(zip([1],[x])) for x in range(1,100)]
+  
+# display list
+print(l)

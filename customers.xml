@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customers>
+	<customer type = "Public">
+	<place>Hyderabad</place>
+	<amount>10000</amount>
+	</customer>
+	<customer type = "Private">
+	<place>Warangal</place>
+	<amount>12000</amount>
+	</customer>
+	<customer type = "Business">
+	<place>Rangareddy</place>
+	<amount>150000</amount>
+	</customer>
+</customers>
